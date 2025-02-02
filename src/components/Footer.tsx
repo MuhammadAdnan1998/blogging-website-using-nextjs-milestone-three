@@ -50,7 +50,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://www.facebook.com/SaylaniWelfareInternationalTrust/"
+                href="https://www.facebook.com/"
                 className="hover:text-indigo-500"
               >
                 Facebook
