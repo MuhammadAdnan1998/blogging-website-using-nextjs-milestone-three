@@ -45,7 +45,7 @@ const Footer = () => {
                 href="mailto:adnanshaikh84482@gmail.com"
                 className="hover:text-indigo-500"
               >
-                info@saylaniwelfare.com
+                info@canvasblog.com
               </a>
             </li>
             <li>
