@@ -1,7 +1,9 @@
+'use client';
+
 import React from "react";
 import Image from "next/image";
 
-const Footer = () => {
+const Footer: React.FC = () => {
   return (
     <div className="pt-20 px-5 sm:px-10 lg:px-20">
       {/* Footer Grid */}
@@ -10,15 +12,15 @@ const Footer = () => {
         <div className="flex flex-col sm:flex-row items-center gap-4">
           <Image
             src="/images/1.png"
-            width={30}
-            height={30}
+            width={48}
+            height={48}
             className="w-24 sm:w-32 md:w-48"
             alt="logo"
             priority
           />
           <p className="text-gray-600 leading-relaxed text-center sm:text-left">
-            Welcome to Tech Canvas Blog your go-to source for the latest in web
-            development, AI, cybersecurity, and gadget reviews. Whether you're a
+            Welcome to Tech Canvas Blog, your go-to source for the latest in web
+            development, AI, cybersecurity, and gadget reviews. Whether you&apos;re a
             tech pro or an enthusiast, explore insightful articles, tutorials,
             and analyses to stay ahead in the ever-evolving tech world. 🚀
           </p>
@@ -41,26 +43,17 @@ const Footer = () => {
           <ul className="flex flex-col gap-3 text-gray-600">
             <li>+92 304 3712 471</li>
             <li>
-              <a
-                href="mailto:adnanshaikh84482@gmail.com"
-                className="hover:text-indigo-500"
-              >
+              <a href="mailto:info@canvasblog.com" className="hover:text-indigo-500">
                 info@canvasblog.com
               </a>
             </li>
             <li>
-              <a
-                href="https://www.facebook.com/"
-                className="hover:text-indigo-500"
-              >
+              <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-500">
                 Facebook
               </a>
             </li>
             <li>
-              <a
-                href="https://www.linkedin.com/in/"
-                className="hover:text-indigo-500"
-              >
+              <a href="https://www.linkedin.com/in/" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-500">
                 LinkedIn
               </a>
             </li>
