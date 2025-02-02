@@ -1,5 +1,6 @@
 import React from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -8,19 +9,19 @@ const Footer = () => {
       <div className="flex flex-col sm:grid grid-cols-1 sm:grid-cols-[3fr_1fr_1fr] gap-10 sm:gap-14 my-10 text-sm">
         {/* Logo and Description */}
         <div className="flex flex-col sm:flex-row items-center gap-4">
-          <img
+          <Image
             src="/images/1.png"
             width={30}
             height={30}
-            className="w-24 sm:w-32 md:w-48" // Responsive width
+            className="w-24 sm:w-32 md:w-48"
             alt="logo"
+            priority
           />
           <p className="text-gray-600 leading-relaxed text-center sm:text-left">
-            Welcome to Tech Canvas Blog  your go-to source for the latest
-            in web development, AI, cybersecurity, and gadget reviews. Whether
-            you're a tech pro or an enthusiast, explore insightful articles,
-            tutorials, and analyses to stay ahead in the ever-evolving tech
-            world. 🚀
+            Welcome to Tech Canvas Blog your go-to source for the latest in web
+            development, AI, cybersecurity, and gadget reviews. Whether you're a
+            tech pro or an enthusiast, explore insightful articles, tutorials,
+            and analyses to stay ahead in the ever-evolving tech world. 🚀
           </p>
         </div>
 
